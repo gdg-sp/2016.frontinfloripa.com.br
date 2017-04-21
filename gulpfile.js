@@ -97,7 +97,7 @@ gulp.task('clean:dist', function () {
   DESC: Create a CNAME file for gh-pages
 */
 gulp.task('cname', function() {
-    return fs.writeFileSync('./dist/CNAME', 'frontinfloripa.com.br');
+    return fs.writeFileSync('./dist/CNAME', 'am4anos.com.br');
 });
 
 /*

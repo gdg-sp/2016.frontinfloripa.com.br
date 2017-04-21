@@ -1,6 +1,6 @@
 {
-  "name": "frontinfloripa2016",
-  "description": "Front in Floripa 2016 website",
+  "name": "android_meetup_birthday",
+  "description": "Android Meetup - Aniversário 4 anos",
   "version": "1.0.0",
   "license": "MIT",
   "author": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/frontinfloripa/2016.frontinfloripa.com.br.git"
+    "url": "https://github.com/gdg-sp/android_meetup_birthday.git"
   },
   "devDependencies": {
     "del": "^2.2.0",

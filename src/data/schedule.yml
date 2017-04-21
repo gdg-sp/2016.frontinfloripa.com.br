@@ -1,60 +1,66 @@
 -
-  time: 8h
+  time: "08:00"
   type: other
-  title: "Credenciamento"
+  title: "Credenciamento & Coffee-break"
 -
-  time: 9h
+  time: "09:00"
   type: talk
-  title: "Microinteractions - Details that matter"
-  speaker: "Luiz Estácio"
+  title: "Keynote"
+  speaker: "GDG-SP, AndroidDevBr, Sponsors, José Papo"
 -
-  time: 10h
+  time: "09:30"
+  type: talk
+  title: "Mini-Talk"
+  speaker: "Em Breve"
+-
+  time: "10:00"
+  type: talk
+  title: "Talk"
+  speaker: "Em Breve"
+-
+  time: "11:00"
+  type: talk
+  title: "Talk"
+  speaker: "Em Breve"
+-
+  time: "12:00"
   type: other
-  title: "Coffee-Break"
+  title: "ALMOÇO"
 -
-  time: 10h30
+  time: "13:30"
   type: talk
-  title: "Introdução a Elm - Programação Funcional no Front-end"
-  speaker: "Marcel dos Santos"
+  title: "Mini-Talk"
+  speaker: "Em Breve"
 -
-  time: 11h15
+  time: "14:00"
   type: talk
-  title: "Deixe seu designer feliz (e seja feliz também)"
-  speaker: "Marta Preuss"
+  title: "Mini-Talk"
+  speaker: "Em Breve"
 -
-  time: 12h
+  time: "15:00"
+  type: talk
+  title: "Talk"
+  speaker: "Em Breve"
+-
+  time: "16:00"
   type: other
-  title: "Almoço"
+  title: "COFFE-BREAK"
 -
-  time: 14h
+  time: "16:30"
   type: talk
-  title: "ReactJS: From upside down to right side up!"
-  speaker: "Pedro Nauck"
+  title: "Mini-Talk"
+  speaker: "Em Breve"
 -
-  time: 14h50
+  time: "17:00"
   type: talk
-  title: "Diga adeus aos pré/pós processadores CSS"
-  speaker: "Afonso Pacifer"
+  title: "Mini-Talk"
+  speaker: "Em Breve"
 -
-  time: 15h45
+  time: "17:30"
   type: talk
-  title: "Ember.js: construindo apps melhores em menor tempo"
-  speaker: "Rômulo Machado"
+  title: "Fireside Chat"
+  speaker: "Todos os Palestrantes e Convidados"
 -
-  time: 16h30
+  time: "18:30"
   type: other
-  title: "Coffee-Break"
--
-  time: 17h
-  type: talk
-  title: "Functional Javascript[1]"
-  speaker: "Matheus Marsiglio"
--
-  time: 17h45
-  type: talk
-  title: "CSS: Computer Style Science"
-  speaker: "Luiz Fernando"
--
-  time: 18h30
-  type: other
-  title: "Encerramento, Sorteios e Happy-Hour"
+  title: "Encerramento"
