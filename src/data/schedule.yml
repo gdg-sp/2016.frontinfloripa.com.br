@@ -6,21 +6,11 @@
   time: "09:00"
   type: talk
   title: "Keynote"
-  speaker: "GDG-SP, AndroidDevBr, Sponsors, José Papo"
+  speaker: "Equipe GDG-SP e convidados"
 -
   time: "09:30"
-  type: talk
-  title: "Mini-Talk"
-  speaker: "Em Breve"
--
-  time: "10:00"
-  type: talk
-  title: "Talk"
-  speaker: "Em Breve"
--
-  time: "11:00"
-  type: talk
-  title: "Talk"
+  type: Talks
+  title: "Talks da manhã"
   speaker: "Em Breve"
 -
   time: "12:00"
@@ -29,17 +19,7 @@
 -
   time: "13:30"
   type: talk
-  title: "Mini-Talk"
-  speaker: "Em Breve"
--
-  time: "14:00"
-  type: talk
-  title: "Mini-Talk"
-  speaker: "Em Breve"
--
-  time: "15:00"
-  type: talk
-  title: "Talk"
+  title: "Talks da tarde - Parte 01"
   speaker: "Em Breve"
 -
   time: "16:00"
@@ -48,12 +28,7 @@
 -
   time: "16:30"
   type: talk
-  title: "Mini-Talk"
-  speaker: "Em Breve"
--
-  time: "17:00"
-  type: talk
-  title: "Mini-Talk"
+  title: "Talks da tarde - Parte 02"
   speaker: "Em Breve"
 -
   time: "17:30"
@@ -63,4 +38,4 @@
 -
   time: "18:30"
   type: other
-  title: "Encerramento"
+  title: "Encerramento e sorteios"
