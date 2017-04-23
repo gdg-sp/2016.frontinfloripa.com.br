@@ -1,6 +1,6 @@
 # Android Meetup - 4 anos
 
-##Instruções básicas
+## Instruções básicas
 
 * Clone esse repositório
 
@@ -15,7 +15,7 @@ cd am4anos
 npm install
 ```
 
-##Rodando localmente
+## Rodando localmente
 
 Coloque o site no ar na sua máquina com
 
@@ -29,7 +29,7 @@ gulp server
 
 * Após as alterações concluídas, submeta seu PR
 
-##Deploy
+## Deploy
 
 Basta executar
 
