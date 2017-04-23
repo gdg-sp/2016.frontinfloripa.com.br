@@ -99,7 +99,7 @@ gulp.task('clean:dist', function () {
   DESC: Create a CNAME file for gh-pages
 */
 gulp.task('cname', function() {
-    return fs.writeFileSync('./dist/CNAME', 'gdgsp.org/am4anos');
+    return fs.writeFileSync('./dist/CNAME', 'gdgsp.org');
 });
 
 /*
