@@ -1,8 +1,8 @@
 -
+  name: "Google Developer"
+  website: "https://developers.google.com"
+  logo: "googledev.svg"
+-
   name: "Oxigênio Aceleradora"
   website: "https://oxigenioaceleradora.com.br/"
-  logo: ""
--
-  name: "Branch"
-  website: ""
-  logo: ""
+  logo: "oxigenio.png"

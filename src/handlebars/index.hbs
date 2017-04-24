@@ -7,7 +7,7 @@
     <title>{{ config.title }} • {{ config.description }}</title>
 
     <!-- CSS -->
-    <link href="//fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Roboto:Regular,Medium,Black" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
 
     <!-- Favicons -->
@@ -21,8 +21,7 @@
     <!-- Facebook -->
     <meta property="og:title" content="{{ config.title }}" /> 
     <meta property="og:type" content="website" /> 
-    <meta property="og:url" content="http://am4anos.com.br" />
-    <meta property="og:image" content="http://frontinfloripa.com.br/assets/img/fb-cover.jpg" /> 
+    <meta property="og:url" content="http://gdgsp.org/am4anos" />
     <meta property="og:description" content="{{ config.description }}" />
 </head>
 <body>
@@ -36,7 +35,7 @@
                     <div class="header-featured">
                         <h2 class="header-featured__title">{{ config.description }}</h2>
                         <p class="header-featured__location">
-                            <span class="date">10/Junho</span> <span class="bull">&bull;</span> 09h <span class="bull">&bull;</span> <span class="location">Oxigênio Aceleradora</span>
+                            <span class="date">10 de junho</span> <span class="bull">&bull;</span> 09h às 19h <span class="bull">&bull;</span> <span class="location">Oxigênio Aceleradora</span>
                         </p>
                         <div class="header-featured__divisor"></div>
                         <a class="header-button-cta" style="display: none" href="{{ config.tickets.link }}" target="_blank">
@@ -49,18 +48,18 @@
 
         <section class="section-features">
             <div class="section-wrapper">
-                <h2 class="section-title">
-                    Android Meetup #4 anos
+                <h3 class="section-title">
+                    #AM4ANOS
                     <span class="section-subtitle">Porque você não pode perder esse evento?</span>
-                </h2>
+                </h3>
 
                 <div class="section-features-main">
                     <div class="section-features-item">
                         <div class="section-features-item__icon home"></div>
                         <div class="section-features-item__description">
-                            <h3>A Oxigênio Aceleradora</h3>
+                            <h3>Da comunidade, para a comunidade</h3>
                             <p>
-                                texto texto texto texto texto texto texto texto texto texto texto 
+                                Seremos recebidos pelos nossos amigos da Oxigênio Aceleradora, em um local super moderno, vibrante, transpirando inovação, de fácil localização! Nosso evento é de médio porte, e além de todo o conteúdo, nós também teremos diversas surpresas para os participantes! Esse evento é um aniversário - com direito a bolo! - e nosso objetivo e ter conosco os principais parceiros do Android Meetup ao longo do último ano!
                             </p>
                         </div>
                     </div>
@@ -68,9 +67,9 @@
                     <div class="section-features-item right">
                         <div class="section-features-item__icon mic"></div>
                         <div class="section-features-item__description">
-                            <h3>Nossos Palestrantes e Amigos</h3>
+                            <h3>As maiores feras de São Paulo</h3>
                             <p>
-                                texto texto texto texto texto texto texto texto texto texto texto 
+                                Diversos profissionais das maiores empresas e startups de tecnologia de São Paulo farão parte da nossa grade de conteúdo. É a sua chance de aprender com os melhores! E para não deixar por menos, ainda teremos diversos convidados especiais! 
                             </p>
                         </div>
                     </div>
@@ -78,9 +77,9 @@
                     <div class="section-features-item">
                         <div class="section-features-item__icon comment"></div>
                         <div class="section-features-item__description">
-                            <h3>Networking e Pós-evento</h3>
+                            <h3>Networking e Conhecimento</h3>
                             <p>
-                                texto texto texto texto texto texto texto texto texto texto texto 
+                                O Android Meetup é o mais antigo evento recorrente sobre desenvolvimento para Android do país, e nosso aniversário representa uma oportunidade única para interação e aprendizado. Nesse ano, nós também teremos um Fireside Chat! Traga suas dúvidas e tenha acesso à opinião de alguns dos maiores especialistas do Brasil na área! 
                             </p>
                         </div>
                     </div>
@@ -107,7 +106,7 @@
         <section class="section-speakers">
             <div class="section-wrapper">
                 <h2 class="section-title">
-                    Palestrantes &amp; Talks
+                    Speakers e Convidados
                 </h2>
                 <div class="speakers-list">
                     {{#each speakers}}
@@ -150,7 +149,7 @@
             <div class="section-wrapper">
                 <h2 class="section-title">
                     Programação
-                    <span class="section-subtitle">Confira abaixo toda a programação do evento!</span>
+                    <span class="section-subtitle">Confira o que vai rolar</span>
                 </h2>
                 <div class="schedule-content">
                     <ul class="schedule-list">
@@ -180,9 +179,9 @@
                 <div class="section-location-content">
                     <h2 class="location-title">Oxigênio Aceleradora</h2>
                     <p class="location-address">
-                        Rua Conselheiro Nébias, 1530<br />
+                        Alameda Eduardo Prado, 397<br />
                         Campos Elíseos – São Paulo/SP<br />
-                        <a class="location-map-link" href="https://goo.gl/maps/bqs8Mft43pG2" target="_blank">Ver Mapa</a>
+                        <a class="location-map-link" href="https://goo.gl/maps/jSLj44H8j4z" target="_blank">Ver Mapa</a>
                     </p>
                 </div>
             </div>
@@ -214,10 +213,39 @@
             </div>
         </section>
 
+        <section class="section-speakers">
+            <div class="section-wrapper">
+                <h2 class="section-title">
+                    Quem faz esse evento acontecer !!!
+                </h2>
+                <div class="speakers-list">
+                    {{#each members}}
+                        <div class="speaker-item">
+                            <img class="speaker-avatar" src="assets/img/speakers/{{avatar}}">
+                            <h3 class="speaker-name">{{name}}</h3>
+                            {{#if talk}}
+                                <p class="speaker-talk">{{talk}}</p>
+                            {{/if}}
+                            <div class="speaker-social">
+                                {{#if github}}
+                                    <a class="speaker-social-link github" href="https://github.com/{{github}}" target="_blank"></a>
+                                {{/if}}
+                                {{#if twitter}}
+                                    <a class="speaker-social-link twitter" href="https://twitter.com/{{twitter}}" target="_blank"></a>
+                                {{/if}}
+                            </div>
+                        </div>
+                    {{/each}}
+                </div>
+            </div>
+        </section>
         <footer class="footer">
             <div class="footer-content">
                 <p class="footer-mail">organizers@gdgsp.org</p>
                 <a class="footer-link" href="http://gdgsp.org/" target="_blank">Organizado por GDG-SP</a>
+            </div>
+            <div class="footer-content">
+                <a class="footer-link" href="https://github.com/diogomoretti" target="_blank">Site template by Diogo Moretti (Front in Floripa)</a>
             </div>
         </footer>
     </main>
