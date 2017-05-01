@@ -1,5 +1,7 @@
 # Android Meetup - 4 anos
 
+[![Status](https://travis-ci.org/gdg-sp/am4anos.svg?branch=master)](https://travis-ci.org/gdg-sp/am4anos)  
+
 ## Instruções básicas
 
 * Clone esse repositório
