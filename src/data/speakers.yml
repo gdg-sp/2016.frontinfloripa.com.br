@@ -1,4 +1,16 @@
 -
+  name: "José Papo"
+  avatar: "papo.jpg"
+  twitter: ""
+  github: ""
+  talk: "Google"
+-
+  name: "Alê Borba"
+  avatar: "borba.jpg"
+  twitter: ""
+  github: ""
+  talk: "Google"
+-
   name: "Anderson Silva"
   avatar: "anderson.jpg"
   twitter: ""
@@ -53,23 +65,17 @@
   github: ""
   talk: "luizalabs"
 -
-  name: "Camila Rocun"
-  avatar: "camila.jpg"
+  name: "Thaís Andrade"
+  avatar: "thais.jpg"
   twitter: ""
   github: ""
-  talk: "GuiaBolso"
+  talk: "luizalabs"
 -
-  name: "José Papo"
-  avatar: "papo.jpg"
+  name: "Gabrielle Rodrigues"
+  avatar: "gabi.jpg"
   twitter: ""
   github: ""
-  talk: "Google"
--
-  name: "Alê Borba"
-  avatar: "borba.jpg"
-  twitter: ""
-  github: ""
-  talk: "Google"
+  talk: "luizalabs"
 -
   name: "Você!"
   avatar: "coming-soon.jpg"
