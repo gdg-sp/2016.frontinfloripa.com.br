@@ -32,28 +32,7 @@ body
   overflow: hidden
   z-index: 1
   height: 77em
-
-  &:before
-    content: ''
-    width: 15em
-    height: @width
-    border-radius: 50%
-    background: $color-secondary
-    position: absolute
-    top: -(@width / 2)
-    left: -(@width / 2)
-    z-index: -1
     
-  &:after
-    content: '#4'
-    font-size: 2.8em
-    color: $color-third
-    display: inline-block
-    position: absolute
-    top: .4em
-    left: @top
-    z-index: 1
-
 .header-wrapper
   position: relative
   display: flex
@@ -70,9 +49,9 @@ body
 .header-logo
   width: 17em
   height: @width
+  background: url(../img/cover.png) no-repeat center center rgba(0,0,0,0.05);
   border-radius: 50%
-  background: url('../svg/logo.svg') no-repeat center center rgba(#000, .05)
-  background-size: 100%
+  background-size: 80%
   text-indent: -9999em
   position: absolute
   top: 50%
@@ -105,7 +84,7 @@ body
 .header-featured__title
   font-family: $font-title
   font-size: 5em
-  font-weight: normal
+  font-weight: bold
   color: #fff
   margin: 0
   
@@ -114,8 +93,8 @@ body
   
 .header-featured__location
   margin: .5em 0 0 0
-  font-size: 2em
-  color: $color-secondary
+  font-size: 3em
+  color: #FFFFFF
   
   .bull
     color: #fff
@@ -705,7 +684,7 @@ body
     margin: 1em
     
     &.apoio
-      max-width: 6em
+      max-width: 9em
       
       @media $phone
         max-width: 3em

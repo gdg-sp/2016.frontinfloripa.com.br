@@ -35,7 +35,8 @@ gulp.task('handlebars', function () {
     var sponsors = yaml.safeLoad(fs.readFileSync('./src/data/sponsors.yml', 'utf-8'));
     var support = yaml.safeLoad(fs.readFileSync('./src/data/support.yml', 'utf-8'));
     var schedule = yaml.safeLoad(fs.readFileSync('./src/data/schedule.yml', 'utf-8'));
-    
+    var members = yaml.safeLoad(fs.readFileSync('./src/data/members.yml', 'utf-8'));
+
     gulp.src('./src/handlebars/*.hbs')
         .pipe(hbs({
             config: config,
@@ -43,7 +44,8 @@ gulp.task('handlebars', function () {
             tweets: tweets,
             sponsors: sponsors,
             support: support,
-            schedule: schedule
+            schedule: schedule,
+            members: members
         }))
         .pipe(rename('index.html'))
         .pipe(gulp.dest('./dist'))
@@ -97,7 +99,7 @@ gulp.task('clean:dist', function () {
   DESC: Create a CNAME file for gh-pages
 */
 gulp.task('cname', function() {
-    return fs.writeFileSync('./dist/CNAME', 'frontinfloripa.com.br');
+    return fs.writeFileSync('./dist/CNAME', 'gdgsp.org');
 });
 
 /*

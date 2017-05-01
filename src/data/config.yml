@@ -1,9 +1,10 @@
-title: "Front in Floripa 2016"
-description: "Maior evento front-end de Santa Catarina"
+title: "Android Meeutp 4 anos"
+description: "O aniversário da maior comunidade Android do Brasil"
 
 tickets:
-  link: "https://www.eventick.com.br/frontinfloripa2016"
+  open: false
+  link: ""
 
 c4p:
-  open: true
-  link: "https://goo.gl/forms/uqLhcbmGRqWQ1iCz2"
+  open: false
+  link: ""

@@ -1,15 +1,15 @@
 {
-  "name": "frontinfloripa2016",
-  "description": "Front in Floripa 2016 website",
+  "name": "am4anos",
+  "description": "Android Meetup - Aniversário 4 anos",
   "version": "1.0.0",
   "license": "MIT",
   "author": {
-    "name": "Diogo Moretti",
-    "url": "diogo.pearljam@gmail.com"
+    "name": "GDG-SP",
+    "url": "organizers@gdgsp.org"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/frontinfloripa/2016.frontinfloripa.com.br.git"
+    "url": "https://github.com/gdg-sp/am4anos.git"
   },
   "devDependencies": {
     "del": "^2.2.0",
