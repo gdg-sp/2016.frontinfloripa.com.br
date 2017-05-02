@@ -1,11 +1,11 @@
 language: node_js
+branches:
+  only:
+    - master
 before_install:
-    - "npm install -g gulp"
+    - npm install -g gulp
 install:
     - npm install
 script:
     - gulp build
     - gulp deploy
-branches:
-  only:
-    - master
