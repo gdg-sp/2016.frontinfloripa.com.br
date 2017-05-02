@@ -5,4 +5,7 @@ install:
     - npm install
 script:
     - gulp build
+deploy:
     - gulp deploy
+    on:
+    branch: master
