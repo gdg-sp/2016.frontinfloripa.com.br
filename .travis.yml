@@ -7,5 +7,6 @@ script:
     - gulp build
 deploy:
     - gulp deploy
-    on:
-    branch: master
+branches:
+  only:
+    - master
