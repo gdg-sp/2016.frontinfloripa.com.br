@@ -4,6 +4,8 @@ branches:
     - master
 before_install:
     - npm install -g gulp
+    - git config --global user.email "ubiratan.f.soares@gmail.com"
+    - git config --global user.name "Ubiratan Soares"
 install:
     - npm install
 script:
