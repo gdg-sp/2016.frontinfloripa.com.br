@@ -3,7 +3,7 @@ branches:
   only:
     - master
 before_install:
-    - npm install -g gulp
+    - npm install -g gulp 
 install:
     - npm install
 script:
@@ -12,5 +12,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
+  local_dir: ./dist
   on:
     branch: master
