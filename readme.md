@@ -17,7 +17,7 @@ cd am4anos
 npm install
 ```
 
-## Rodando localmente
+## Rodando localmente e contribuindo
 
 Coloque o site no ar na sua máquina com
 
@@ -33,10 +33,10 @@ gulp server
 
 ## Deploy
 
-Basta executar
+TravisCI irá gerar um deploy de forma automática toda vez que o branch `master` for atualizado. Se for preciso fazer um deploy da sua máquina, execute
 
 ```
 gulp deploy
 ```
 
-Os deploys deverão ser gerados a partir do branch master atualizado
+Contudo, isso não é preciso. 
