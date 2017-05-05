@@ -38,5 +38,3 @@ TravisCI irá gerar um deploy de forma automática toda vez que o branch `master
 ```
 gulp deploy
 ```
-
-Contudo, isso não é preciso. 
