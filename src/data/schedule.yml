@@ -3,15 +3,25 @@
   type: other
   title: "Credenciamento & Coffee-break"
 -
-  time: "09:00"
+  time: "08:45"
   type: talk
   title: "Keynote"
   speaker: "Equipe GDG-SP e convidados"
 -
   time: "09:30"
-  type: Talks
-  title: "Talks da manhã"
-  speaker: "Em Breve"
+  type: talk
+  title: "Constraint Layout Unleashed"
+  speaker: "Rafael Toledo"
+-
+  time: "10:30"
+  type: talk
+  title: "Todas as novidades do Android Oxxxx"
+  speaker: "Anderson Silva"
+-
+  time: "11:30"
+  type: talk
+  title: "Seu app em tempo real com Firebase : Database, Geofire, Cloud Functions e mais!"
+  speaker: "Thaís Andrade e Gabrielle Rodrigues"
 -
   time: "12:00"
   type: other
@@ -19,8 +29,18 @@
 -
   time: "13:30"
   type: talk
-  title: "Talks da tarde - Parte 01"
-  speaker: "Em Breve"
+  title: "The world of Android Animations"
+  speaker: "Nelson Glauber"
+-
+  time: "14:30"
+  type: talk
+  title: "Refatorando com Kotlin"
+  speaker: "Walmyr Carvalho e Rodrigo Sicarelli"
+-
+  time: "15:30"
+  type: talk
+  title: "Error-free : apps sem crashes e sem erros, com Firebase, Fabric e cia"
+  speaker: "Petrus Gomes e Alexandre Navarro"
 -
   time: "16:00"
   type: other
@@ -28,13 +48,18 @@
 -
   time: "16:30"
   type: talk
-  title: "Talks da tarde - Parte 02"
+  title: "A definir"
+  speaker: "Felipe Theodoro"
+-
+  time: "17:00"
+  type: talk
+  title: "Palestra secreta"
   speaker: "Em Breve"
 -
   time: "17:30"
   type: talk
-  title: "Fireside Chat"
-  speaker: "Todos os Palestrantes e Convidados"
+  title: "Fireside Chat : traga suas dúvidas para serem respondidas pelos melhores"
+  speaker: "Palestrantes e Convidados Especiais"
 -
   time: "18:30"
   type: other
