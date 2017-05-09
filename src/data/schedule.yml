@@ -20,7 +20,7 @@
 -
   time: "11:30"
   type: talk
-  title: "Seu app em tempo real com Firebase : Database, Geofire, Cloud Functions e mais!"
+  title: "Um app em realtime com Firebase : Database, Geofire, Cloud Functions e mais!"
   speaker: "Thaís Andrade e Gabrielle Rodrigues"
 -
   time: "12:00"
@@ -29,7 +29,7 @@
 -
   time: "13:30"
   type: talk
-  title: "The world of Android Animations"
+  title: "The world of Android animations"
   speaker: "Nelson Glauber"
 -
   time: "14:30"
