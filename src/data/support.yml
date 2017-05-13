@@ -1,8 +1,4 @@
 -
-  name: "Novatec"
-  website: "http://novatec.com.br"
-  logo: "novatec.png"
--
   name: "VivaReal"
   website: "https://vivareal.com.br"
   logo: "vivareal.png"
@@ -18,3 +14,7 @@
   name: "Android DevBR"
   website: "https://androiddevbr.slack.com"
   logo: "androiddevbr.png"
+-
+  name: "Novatec"
+  website: "http://novatec.com.br"
+  logo: "novatec.png"
