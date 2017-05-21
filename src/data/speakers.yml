@@ -5,6 +5,12 @@
   github: ""
   talk: "Google"
 -
+  name: "John Calistro"
+  avatar: "john.jpeg"
+  twitter: ""
+  github: ""
+  talk: "Branch"
+-
   name: "Philipe Steiff"
   avatar: "steiff.jpg"
   twitter: ""
@@ -22,6 +28,12 @@
   twitter: ""
   github: ""
   talk: "99"
+-
+  name: "Abner Terribili"
+  avatar: "abner.jpeg"
+  twitter: ""
+  github: ""
+  talk: "elo7"
 -
   name: "Thaís Andrade"
   avatar: "thais.jpg"
