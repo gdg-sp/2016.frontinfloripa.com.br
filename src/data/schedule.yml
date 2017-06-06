@@ -10,8 +10,8 @@
 -
   time: "09:30"
   type: talk
-  title: "ConstraintLayout : um layout para a todos governar?"
-  speaker: "Rafael Toledo"
+  title: "Refatorando com Kotlin"
+  speaker: "Walmyr Carvalho e Rodrigo Sicarelli"
 -
   time: "10:30"
   type: talk
@@ -34,8 +34,8 @@
 -
   time: "14:30"
   type: talk
-  title: "Refatorando com Kotlin"
-  speaker: "Walmyr Carvalho e Rodrigo Sicarelli"
+  title: "ConstraintLayout : um layout para a todos governar?"
+  speaker: "Rafael Toledo"
 -
   time: "15:30"
   type: talk
